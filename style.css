@@ -301,8 +301,8 @@ nav .dropdown li a:hover {
     }
     .container .hero-pic
     {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     }
 }
 @media only screen and (max-width:768px)
