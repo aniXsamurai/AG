@@ -28,7 +28,7 @@
                         <li><a href="#">contact▼</a>
                             <ul class="dropdown">
                                 <li><a href="#">Ph.9907320701</a></li>
-                                <li><a href="#">aniruddhagarai312@gmail.com</a></li>
+                                <li><a href="#" id="mail">aniruddhagarai312@gmail.com</a></li>
                             </ul>    
                         </li>
                         <li class="project"><a href="#">Projects▼</a>
@@ -89,6 +89,11 @@
             backspeed:55,
             loop:true
         })
+        document.getElementById('mail').addEventListener('click', function() {
+        var email = 'aniruddhagarai312@gmail.com';
+        var mailtoLink = 'mailto:' + email;
+        window.location.href = mailtoLink;
+        });
 
     </script>
 </body>
