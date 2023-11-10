@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniruddhaGarai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">Aniruddha Garai</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">contact▼</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Ph.9907320701</a></li>
+                                <li><a href="#">aniruddhagarai312@gmail.com</a></li>
+                            </ul>    
+                        </li>
+                        <li class="project"><a href="#">Projects▼</a>
+                            <ul class="dropdown">
+                                <li><a href="calculator.html" target="_blank">Calculator</a></li>
+                                <li><a href="WA.html" target="_blank">Weather app</a></li>
+                                <li><a href="win11.html" target="_blank">Windows 11 UI</a></li>
+                                <li><a href="car_animation.html" target="_blank">Car animation</a></li>
+                                <li><a href="index.html">Portfolio</a></li>
+                                <li><a href="ISE.html" target="_blank">Image search engine</a></li>
+                                <li><a href="analog_clock.html"target="_blank">Analog Watch</a></li>
+                                <li><a href="desert.html" target="_blank">Sahara desart UI</a></li>
+                                <li><a href="coin_flip.html" target="_blank">Coin fliper</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="ani2.png" alt="dp">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Web-dev enthusiast</span></h5>
+                    <h1>Aniruddha Garai</h1>
+                    <p>Motivated and creative individual with a passion for coding and photography. Demonstrates a commitment to continuous learning and possesses a keen eye for visual aesthetics, blending technical expertise seamlessly with creative pursuits.</p>
+                    <div class="btn-group">
+                        <a href="https://github.com/aniXsamurai" target="_blank" class="btn active">Github</a>
+                        <a href="#" class="btn">contact</a>
+                    </div>
+                    
+
+                    <div class="social">
+                        <a href="https://facebook.com/aniruddhagarai" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/ani_graphy03" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/aniXsamurai" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+        var links = document.querySelector(".navlinks li");
+        
+        togglebtn.addEventListener("click",function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed = new Typed(".input",
+        {
+            strings:["Photographer","Creative","a Gamer","Web-dev enthusiast","a photographer"],
+            typedSpeed: 70,
+            backspeed:55,
+            loop:true
+        })
+
+    </script>
+</body>
+</html>
